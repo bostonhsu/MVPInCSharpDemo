@@ -1,6 +1,6 @@
-﻿namespace MVPDemo
+﻿namespace WindowsFormsApplication1
 {
-    partial class MainForm
+    partial class Form1
     {
         /// <summary>
         /// 必需的设计器变量。
