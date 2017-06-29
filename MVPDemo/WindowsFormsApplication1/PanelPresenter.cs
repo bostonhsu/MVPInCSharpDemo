@@ -14,6 +14,7 @@ namespace WindowsFormsApplication1
 
             //初始化Model
             this.View.Model = new PanelPresenterationModel() { Name = "Boston Hsu" };
+            View.ButtonClick += delegate { View.Model = new PanelPresenterationModel() {Name = "Aloha!"}; };
         }
 
         public Form1 View { get; set; }
