@@ -3,5 +3,6 @@
     public class PanelPresenterationModel
     {
         public string Name { get; set; }
+
     }
 }
