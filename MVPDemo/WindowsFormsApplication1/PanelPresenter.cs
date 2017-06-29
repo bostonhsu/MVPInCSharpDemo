@@ -13,7 +13,7 @@ namespace WindowsFormsApplication1
             this.View = view;
 
             //初始化Model
-            this.View.Model = new PanelPresenterationModel() { Name = "Bao, Jianqiang" };
+            this.View.Model = new PanelPresenterationModel() { Name = "Boston Hsu" };
         }
 
         public Form1 View { get; set; }
