@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{A93EBCF1-4E06-4719-B4FA-57267BD1F961}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVPDemo", "WindowsFormsApplication1\MVPDemo.csproj", "{A93EBCF1-4E06-4719-B4FA-57267BD1F961}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
