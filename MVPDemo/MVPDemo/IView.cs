@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MVPDemo
+﻿namespace MVPDemo
 {
-    public interface IView<T> : IView
+    public interface IView<T> : MVPDemo.IView
     {
         T Model { get; set; }
     }
