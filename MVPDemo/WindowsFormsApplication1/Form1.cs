@@ -33,5 +33,11 @@ namespace WindowsFormsApplication1
             }
         }
 
+        public EventHandler ButtonClick;
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ButtonClick?.Invoke(sender, e);
+        }
     }
 }
