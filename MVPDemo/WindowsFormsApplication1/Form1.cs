@@ -16,5 +16,22 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private PanelPresenterationModel model;
+
+        public PanelPresenterationModel Model
+        {
+            get
+            {
+                return model as PanelPresenterationModel;
+            }
+
+            set
+            {
+                model = value as PanelPresenterationModel;
+                label1.Text = model.Name;
+            }
+        }
+
     }
 }
